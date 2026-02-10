@@ -1,0 +1,5 @@
+@import '../signup/signup.css';
+.error { color: red; }
+a {
+  pointer-events: none;
+}

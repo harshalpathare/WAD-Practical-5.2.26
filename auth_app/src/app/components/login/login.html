@@ -1,0 +1,16 @@
+<div class="card">
+  <h3>Login</h3>
+
+  <input placeholder="Email" [(ngModel)]="email">
+  <input type="password" placeholder="Password" [(ngModel)]="password">
+
+  <button (click)="login()">Login</button>
+
+  <p class="error">{{ error }}</p>
+
+  <!-- THIS IS CREATE ACCOUNT -->
+  <p>
+    Don’t have an account?
+    <button routerLink="/signup">Create account</button>
+  </p>
+</div>

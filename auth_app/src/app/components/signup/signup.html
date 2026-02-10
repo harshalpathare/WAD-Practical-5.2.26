@@ -1,0 +1,10 @@
+<div class="card">
+  <h3>Register</h3>
+
+  <input placeholder="Name" [(ngModel)]="name">
+  <input placeholder="Email" [(ngModel)]="email">
+  <input type="password" placeholder="Password" [(ngModel)]="password">
+
+  <button (click)="register()">Register</button>
+  <p><a routerLink="/login">Already have an account?</a></p>
+</div>
